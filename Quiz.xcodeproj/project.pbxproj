@@ -3,16 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1011A14F2663BBB30086F60C /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1011A14E2663BBB30086F60C /* PlaySound.swift */; };
+		1011A1512663BF030086F60C /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1011A1502663BF030086F60C /* success.mp3 */; };
+		1044EE4E2657DAF90075DA93 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044EE4D2657DAF90075DA93 /* test.swift */; };
+		108AB786266519720079C930 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 108AB785266519720079C930 /* correct.mp3 */; };
+		108AB788266519780079C930 /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 108AB787266519780079C930 /* incorrect.mp3 */; };
 		10AB4AFC2649704A002710B3 /* QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4AFB2649704A002710B3 /* QuizApp.swift */; };
 		10AB4AFE2649704A002710B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4AFD2649704A002710B3 /* ContentView.swift */; };
 		10AB4B002649704B002710B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AB4AFF2649704B002710B3 /* Assets.xcassets */; };
 		10AB4B032649704B002710B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AB4B022649704B002710B3 /* Preview Assets.xcassets */; };
 		10AB4B0E2649704B002710B3 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4B0D2649704B002710B3 /* QuizTests.swift */; };
 		10AB4B192649704B002710B3 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AB4B182649704B002710B3 /* QuizUITests.swift */; };
+		10C2F0DD2663A90D004BF977 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 10C2F0DC2663A90D004BF977 /* Lottie */; };
+		10C2F0DF2663A98A004BF977 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2F0DE2663A98A004BF977 /* LottieView.swift */; };
+		10C2F0E22663B127004BF977 /* check.json in Resources */ = {isa = PBXBuildFile; fileRef = 10C2F0E12663B127004BF977 /* check.json */; };
+		10C2F0E42663B24E004BF977 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2F0E32663B24E004BF977 /* CheckView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1011A14E2663BBB30086F60C /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		1011A1502663BF030086F60C /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		1044EE4D2657DAF90075DA93 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		108AB785266519720079C930 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		108AB787266519780079C930 /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = "<group>"; };
 		10AB4AF82649704A002710B3 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AB4AFB2649704A002710B3 /* QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizApp.swift; sourceTree = "<group>"; };
 		10AB4AFD2649704A002710B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +59,9 @@
 		10AB4B142649704B002710B3 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AB4B182649704B002710B3 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		10AB4B1A2649704B002710B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C2F0DE2663A98A004BF977 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		10C2F0E12663B127004BF977 /* check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check.json; sourceTree = "<group>"; };
+		10C2F0E32663B24E004BF977 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C2F0DD2663A90D004BF977 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +93,7 @@
 		10AB4AEF2649704A002710B3 = {
 			isa = PBXGroup;
 			children = (
+				1044EE4D2657DAF90075DA93 /* test.swift */,
 				10AB4AFA2649704A002710B3 /* Quiz */,
 				10AB4B0C2649704B002710B3 /* QuizTests */,
 				10AB4B172649704B002710B3 /* QuizUITests */,
@@ -95,9 +114,16 @@
 		10AB4AFA2649704A002710B3 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				1011A1502663BF030086F60C /* success.mp3 */,
+				108AB785266519720079C930 /* correct.mp3 */,
+				108AB787266519780079C930 /* incorrect.mp3 */,
 				10AB4AFB2649704A002710B3 /* QuizApp.swift */,
 				10AB4AFD2649704A002710B3 /* ContentView.swift */,
+				1011A14E2663BBB30086F60C /* PlaySound.swift */,
+				10C2F0DE2663A98A004BF977 /* LottieView.swift */,
+				10C2F0E32663B24E004BF977 /* CheckView.swift */,
 				10AB4AFF2649704B002710B3 /* Assets.xcassets */,
+				10C2F0E02663B127004BF977 /* Lottie */,
 				10AB4B042649704B002710B3 /* Info.plist */,
 				10AB4B012649704B002710B3 /* Preview Content */,
 			);
@@ -130,6 +156,14 @@
 			path = QuizUITests;
 			sourceTree = "<group>";
 		};
+		10C2F0E02663B127004BF977 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				10C2F0E12663B127004BF977 /* check.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +180,9 @@
 			dependencies = (
 			);
 			name = Quiz;
+			packageProductDependencies = (
+				10C2F0DC2663A90D004BF977 /* Lottie */,
+			);
 			productName = Quiz;
 			productReference = 10AB4AF82649704A002710B3 /* Quiz.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +254,9 @@
 				Base,
 			);
 			mainGroup = 10AB4AEF2649704A002710B3;
+			packageReferences = (
+				10C2F0DB2663A90D004BF977 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 10AB4AF92649704A002710B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108AB786266519720079C930 /* correct.mp3 in Resources */,
+				10C2F0E22663B127004BF977 /* check.json in Resources */,
 				10AB4B032649704B002710B3 /* Preview Assets.xcassets in Resources */,
+				1011A1512663BF030086F60C /* success.mp3 in Resources */,
+				108AB788266519780079C930 /* incorrect.mp3 in Resources */,
 				10AB4B002649704B002710B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				10AB4AFE2649704A002710B3 /* ContentView.swift in Sources */,
+				1011A14F2663BBB30086F60C /* PlaySound.swift in Sources */,
+				1044EE4E2657DAF90075DA93 /* test.swift in Sources */,
 				10AB4AFC2649704A002710B3 /* QuizApp.swift in Sources */,
+				10C2F0DF2663A98A004BF977 /* LottieView.swift in Sources */,
+				10C2F0E42663B24E004BF977 /* CheckView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10C2F0DB2663A90D004BF977 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10C2F0DC2663A90D004BF977 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10C2F0DB2663A90D004BF977 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 10AB4AF02649704A002710B3 /* Project object */;
 }
